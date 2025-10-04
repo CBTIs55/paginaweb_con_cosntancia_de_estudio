@@ -5,6 +5,7 @@ const FALLBACK_LOGO = "images (4).jpeg";
 // ⚠️ ADVERTENCIA DE SEGURIDAD: Esta clave está expuesta en el navegador.
 // Úsala solo para pruebas y luego bórrala.
 // DEBES REEMPLAZAR ESTA CLAVE PLACEHOLDER por tu clave API real de Gemini.
+// EJEMPLO: const GEMINI_API_KEY = "AIzaSy_tu_clave_real_aqui_123456789"; 
 const GEMINI_API_KEY = "AIzaSyAgIKd-fSLUPedtj1Q8SObB3UNE-ksAjMQ"; 
 const API_BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + GEMINI_API_KEY;
 
