@@ -208,7 +208,8 @@ async function callGeminiAPI(history) {
         systemInstruction: {
             parts: [{ text: SYSTEM_INSTRUCTION }]
         },
-        config: {
+        // CORRECCIÓN: 'config' debe ser 'generationConfig' para que la API lo acepte.
+        generationConfig: {
             // Este parámetro asegura que la respuesta sea más directa
             temperature: 0.5 
         }
