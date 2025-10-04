@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oferta Educativa — CBTis 55</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Reuse header (keeps same structure as index) -->
+  <div id="site">
+    <div class="topbar">
+      <div class="topbar-content">
+      </div>
+    </div>
+
+    <header class="header">
+      <!-- Cabecera simplificada: eliminada marca y menú lateral por petición -->
+      <aside id="sideMenu" class="side-menu" aria-label="Menú principal">
+        <nav class="side-nav">
+          <a href="#oferta" class="side-link">Oferta Educativa</a>
+          <a href="#innovacion" class="side-link">Innovación</a>
+          <a href="#noticias" class="side-link">Noticias</a>
+          <a href="#contacto" class="side-link">Contacto</a>
+          <a href="#administrativos" class="side-link">Administrativos</a>
+          <a href="#docentes" class="side-link">Docentes</a>
+          <a href="#skoolkits" class="side-link">SKOOL KITS</a>
+          <a href="#portal" class="btn-accent side-cta">Portal de Alumnos</a>
+        </nav>
+      </aside>
+      <div style="width:1px; height:1px; overflow:hidden;" aria-hidden="true"></div>
+      <!-- moved: Volver al Inicio button here, orange style -->
+      <div style="display:flex;align-items:center;justify-content:flex-end;gap:12px;">
+        <a href="index.html" class="btn-orange" style="text-decoration:none;">Volver al Inicio</a>
+        <!-- HRS top-right button (consistent with main page) -->
+        <a href="https://cbtis-smart-hrs.netlify.app/" target="_blank" class="hrs-button" rel="noopener" style="text-decoration:none;">Acceder al Sistema HRS</a>
+      </div>
+    </header>
+
+    <!-- Hero for Oferta page -->
+    <section id="oferta" class="hero" aria-label="Oferta educativa">
+      <div class="hero-bg" role="img" aria-label="Fondo tecnológico"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h2>Nuestra Oferta Educativa: Bachillerato Técnico Bivalente</h2>
+        <p>Programas técnicos con enfoque práctico, vinculación industrial y formación en competencias digitales y de IA.</p>
+      </div>
+    </section>
+
+    <!-- Additional anchors so side-menu links work within this page -->
+    <section id="innovacion" class="block block-contrast" aria-label="Innovación">
+      <div class="container"><h3 style="margin:0 0 8px;">Innovación</h3><p style="margin:0;color:var(--muted);">Proyectos y laboratorios conectados con IA y la industria.</p></div>
+    </section>
+
+    <section id="noticias" class="block" aria-label="Noticias">
+      <div class="container"><h3 style="margin:0 0 8px;">Noticias</h3><p style="margin:0;color:var(--muted);">Últimos logros y eventos del CBTis 55.</p></div>
+    </section>
+
+    <section id="contacto" class="block block-contrast" aria-label="Contacto">
+      <div class="container"><h3 style="margin:0 0 8px;">Contacto</h3><p style="margin:0;color:var(--muted);">Escríbenos a contacto@cbtis55.edu.mx o llama a Admisiones: +52 55 1234 5678</p></div>
+    </section>
+
+    <div id="portal" aria-hidden="true"></div>
+
+    <!-- Careers grid -->
+    <main class="block">
+      <div class="container">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px;">
+          <h3 style="margin:0;font-size:20px;">Carreras Técnicas</h3>
+        </div>
+
+        <div class="pillars" style="grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:18px;">
+          <!-- Técnico en Programación -->
+          <article class="pillar" aria-label="Técnico en Programación">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:64px;height:64px;border-radius:10px;background:#062c27;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px;">
+                💻
+              </div>
+              <div>
+                <h4 style="color:var(--accent);margin:0;font-size:18px;">Técnico en Programación</h4>
+                <p style="margin:6px 0;color:var(--muted);">Formación en desarrollo de software, algoritmos y proyectos reales.</p>
+              </div>
+            </div>
+            <p style="margin-top:8px;color:var(--muted);">Integración con herramientas de Inteligencia Artificial para desarrollo de soluciones inteligentes.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+              <div style="background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;font-weight:700;color:var(--muted);">Salidas: Desarrollo, Startups, Continuar a Ingeniería</div>
+              <a class="btn-primary" href="#" style="text-decoration:none;">Ver Plan de Estudios</a>
+              <a class="btn-accent" href="#" style="text-decoration:none;">Descargar Ficha</a>
+            </div>
+          </article>
+
+          <!-- Técnico en Ofimática -->
+          <article class="pillar" aria-label="Técnico en Ofimática">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:64px;height:64px;border-radius:10px;background:#062c27;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px;">
+                🗂️
+              </div>
+              <div>
+                <h4 style="color:var(--accent);margin:0;font-size:18px;">Técnico en Ofimática</h4>
+                <p style="margin:6px 0;color:var(--muted);">Competencias en herramientas ofimáticas y gestión documental digital.</p>
+              </div>
+            </div>
+            <p style="margin-top:8px;color:var(--muted);">Integración con herramientas de Inteligencia Artificial para eficiencia y automatización de tareas administrativas.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+              <div style="background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;font-weight:700;color:var(--muted);">Salidas: Administración, Soporte, Continuar a Licenciatura</div>
+              <a class="btn-primary" href="#" style="text-decoration:none;">Ver Plan de Estudios</a>
+              <a class="btn-accent" href="#" style="text-decoration:none;">Descargar Ficha</a>
+            </div>
+          </article>
+
+          <!-- Técnico en Construcción -->
+          <article class="pillar" aria-label="Técnico en Construcción">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:64px;height:64px;border-radius:10px;background:#062c27;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px;">
+                🏗️
+              </div>
+              <div>
+                <h4 style="color:var(--accent);margin:0;font-size:18px;">Técnico en Construcción</h4>
+                <p style="margin:6px 0;color:var(--muted);">Formación en procesos constructivos, planos y supervisión de obra.</p>
+              </div>
+            </div>
+            <p style="margin-top:8px;color:var(--muted);">Enfoque práctico con proyectos reales y vinculación con empresas del sector.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+              <div style="background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;font-weight:700;color:var(--muted);">Salidas: Obra, Supervisión, Continuar a Ingeniería Civil</div>
+              <a class="btn-primary" href="#" style="text-decoration:none;">Ver Plan de Estudios</a>
+              <a class="btn-accent" href="#" style="text-decoration:none;">Descargar Ficha</a>
+            </div>
+          </article>
+
+          <!-- Técnico en Contabilidad -->
+          <article class="pillar" aria-label="Técnico en Contabilidad">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:64px;height:64px;border-radius:10px;background:#062c27;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px;">
+                🧾
+              </div>
+              <div>
+                <h4 style="color:var(--accent);margin:0;font-size:18px;">Técnico en Contabilidad</h4>
+                <p style="margin:6px 0;color:var(--muted);">Contabilidad, finanzas básicas y uso de sistemas contables.</p>
+              </div>
+            </div>
+            <p style="margin-top:8px;color:var(--muted);">Preparación para la gestión financiera de empresas y emprendimientos.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+              <div style="background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;font-weight:700;color:var(--muted);">Salidas: Contabilidad, Auditoría, Continuar a Licenciatura</div>
+              <a class="btn-primary" href="#" style="text-decoration:none;">Ver Plan de Estudios</a>
+              <a class="btn-accent" href="#" style="text-decoration:none;">Descargar Ficha</a>
+            </div>
+          </article>
+
+          <!-- Técnico en Mantenimiento Automotriz -->
+          <article class="pillar" aria-label="Técnico en Mantenimiento Automotriz">
+            <div style="display:flex;align-items:center;gap:12px;">
+              <div style="width:64px;height:64px;border-radius:10px;background:#062c27;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px;">
+                🔧
+              </div>
+              <div>
+                <h4 style="color:var(--accent);margin:0;font-size:18px;">Técnico en Mantenimiento Automotriz</h4>
+                <p style="margin:6px 0;color:var(--muted);">Diagnóstico, mantenimiento y reparación de vehículos.</p>
+              </div>
+            </div>
+            <p style="margin-top:8px;color:var(--muted);">Preparación práctica con talleres equipados y formación en nuevas tecnologías automotrices.</p>
+            <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+              <div style="background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;font-weight:700;color:var(--muted);">Salidas: Talleres, Concesionarios, Continuar a Carreras Técnicas Superiores</div>
+              <a class="btn-primary" href="#" style="text-decoration:none;">Ver Plan de Estudios</a>
+              <a class="btn-accent" href="#" style="text-decoration:none;">Descargar Ficha</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer (reuse) -->
+    <footer class="footer">
+      <div class="container">
+        <p> CBTis 55. Todos los derechos reservados.</p>
+        <div class="footer-contact" aria-label="Información de contacto">
+          <a href="mailto:contacto@cbtis55.edu.mx">contacto@cbtis55.edu.mx</a>
+          <span>•</span>
+          <a href="tel:+525512345678">Admisiones: +52 55 1234 5678</a>
+          <span>•</span>
+          <a href="tel:+525587654321">Soporte: +52 55 8765 4321</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CRM Side Tab (Chat / Admisiones) -->
+    <button id="crmTab" class="crm-tab" aria-label="Abrir asistencia">Chat / Admisiones</button>
+    <aside id="crmPanel" class="crm-panel" aria-live="polite" aria-label="Asistencia CBTis 55">
+      <header class="crm-header">
+        <strong>Asistencia CBTis 55</strong>
+        <button id="crmClose" class="crm-close" aria-label="Cerrar">×</button>
+      </header>
+      <div id="chatArea" class="crm-messages" role="log" aria-live="polite"></div>
+      <form id="chatForm" class="crm-input" autocomplete="off">
+        <input id="chatText" type="text" placeholder="Escribe tu consulta..." aria-label="Mensaje" required />
+        <button class="btn-accent" type="submit">Enviar</button>
+      </form>
+    </aside>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Subir arriba">↑</button>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

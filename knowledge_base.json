@@ -1,0 +1,73 @@
+{
+  "institucion": {
+    "nombre_oficial": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 55 (CBTis 55)",
+    "ubicacion": "Pánuco, Veracruz",
+    "pertenencia": "Dirección General de Educación Tecnológica Industrial (DGETI)",
+    "formacion_central": "Bivalente (Certificado de Bachillerato + Título de Profesional Técnico)",
+    "jornadas": "Matutino (7:00 a.m. a 1:20 p.m.) y Vespertino (2:00 p.m. a 8:20 p.m.)",
+    "costo_inscripcion": "600 pesos"
+  },
+  "carreras": {
+    "contabilidad": {
+      "nombre": "Técnico en Contabilidad",
+      "enfoque": "Gestión financiera, fiscal y de costos.",
+      "competencias": [
+        "Registra operaciones contables (comerciales, servicios, fabriles)",
+        "Opera software contable",
+        "Determina contribuciones fiscales (personas físicas/morales)",
+        "Asiste en auditoría"
+      ]
+    },
+    "construccion": {
+      "nombre": "Técnico en Construcción",
+      "enfoque": "Representación gráfica, topografía y supervisión de obra civil (casa habitación).",
+      "competencias": [
+        "Realiza dibujos de planos arquitectónicos (software especializado)",
+        "Supervisa obras de casa habitación/instalaciones",
+        "Realiza levantamiento/trazo topográfico",
+        "Elabora presupuestos"
+      ]
+    },
+    "mantenimiento_automotriz": {
+      "nombre": "Técnico en Mantenimiento Automotriz",
+      "enfoque": "Diagnóstico y mantenimiento de sistemas mecánicos y electrónicos de vehículos.",
+      "competencias": [
+        "Mantiene sistemas eléctricos/electrónicos",
+        "Mantiene el motor y sus sistemas de control",
+        "Mantiene el sistema de transmisión (manual/automático)",
+        "Mantiene los sistemas de suspensión/dirección/frenos"
+      ]
+    },
+    "ofimatica": {
+      "nombre": "Técnico en Ofimática",
+      "enfoque": "Gestión de información, automatización de oficina y manejo de bases de datos.",
+      "competencias": [
+        "Instala/opera equipos de cómputo",
+        "Gestiona hardware/software de ofimática",
+        "Gestiona información local/remota (nube)",
+        "Diseña/gestiona bases de datos sencillas"
+      ]
+    },
+    "programacion": {
+      "nombre": "Técnico en Programación",
+      "enfoque": "Desarrollo de software para diversas plataformas.",
+      "competencias": [
+        "Desarrolla software con programación estructurada y orientada a objetos (POO)",
+        "Aplica metodologías de desarrollo",
+        "Desarrolla aplicaciones Web (front-end/back-end) con almacenamiento persistente (bases de datos)",
+        "Desarrolla apps móviles"
+      ]
+    }
+  },
+  "procesos_academicos": {
+    "acreditacion": "Manejo de periodos de regularización (Semestrales, Intersemestrales, Extraordinarios).",
+    "titulacion": "Servicio y Titulación son obligatorios para la formación técnica. Acceso a Titulación Digital.",
+    "formacion_integral": "Impulso a programas como Cultura de Paz, PAE y acciones preventivas.",
+    "constancia_de_estudio": "Puedes solicitar tu constancia de estudio en línea usando este formulario oficial: https://script.google.com/macros/s/AKfycbymOHgg49X3jSXdTVYqmXpv1YELh9gUmgPEF8-0I5BCOlPe69Z6Nrd6tyvLizOUuQXt/exec"
+  },
+  "instrucciones_bot": {
+    "oferta_educativa": "invita a visitar la sección Oferta Educativa o la página oferta.html.",
+    "costo_inscripcion": "indica que es de $600 pesos.",
+    "carreras": "detalla las Competencias Clave relevantes, indicando que el egresado obtendrá un título de Profesional Técnico."
+  }
+}
